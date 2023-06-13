@@ -31,7 +31,7 @@ body{
     border: solid 2px rgb(0, 0, 0);
     padding-top: 6rem;
     border-radius: 20px;
-    background-color: rgba(250, 235, 215, 0.753);
+    background-color: rgba(250, 235, 215, 0.89);
 
     
 }
@@ -40,6 +40,8 @@ body{
     font-size:x-large;
     margin: 5px;
     padding: 10px;
+    text-transform: uppercase;
+    color: rgb(182, 30, 30);
 
 }
 .main-content .quote{
@@ -52,4 +54,18 @@ button{
     margin: 10px;
     width: 100px;
     padding: 5px;
+    text-transform: uppercase;
+    transition: 0.5s;
+ 
+}
+button:hover{
+    transition: 0.5s;
+    transform:scale(1.2,1.2);
+    background-color: black;
+    color: antiquewhite;
+   
+}
+button:active{
+    color: rgb(255, 0, 0);
+    transition: none;
 }
