@@ -1,0 +1,55 @@
+/* General styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-image: url(img/Download\ free\ image\ of\ Antique\ books\ in\ a\ library\,\ from\ our\ own\ original\ public\ domain\ collection_\ by\ Tong\ about\ books\,\ séguy\,\ library\,\ history\,\ and\ library\ books\ 4062295.jpeg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+/* .quote{
+    white-space: nowrap;
+} */
+.header{
+    margin: 50px;
+    padding: 5px;
+    width:  80%;
+    border: solid 2px white;
+    background-color: black;
+    color: antiquewhite;
+    border-radius: 10px;
+}
+.main-content{
+    width: 100%;
+    border: solid 2px rgb(0, 0, 0);
+    padding-top: 6rem;
+    border-radius: 20px;
+    background-color: rgba(250, 235, 215, 0.753);
+
+    
+}
+.main-content .person{
+    font-weight: 800;
+    font-size:x-large;
+    margin: 5px;
+    padding: 10px;
+
+}
+.main-content .quote{
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+button{
+    margin: 10px;
+    width: 100px;
+    padding: 5px;
+}
