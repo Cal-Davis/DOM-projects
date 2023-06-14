@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(img/Garmin\'s\ first\ swimming\ unit\ that\ counts\ your….jpeg) no-repeat center center /cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   
+
+    
+   
+}
+
+.container{
+    width: 60%;
+    height:250px;
+    background-color: rgba(240, 248, 255, 0.801);
+    border-radius: 20px;
+    box-shadow: 0 0 3px;
+  
+
+}
+
+.timer{
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    padding: 40px;
+}
+
+.buttons{
+    
+    text-align: center;      
+
+}
+
+button{
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+button i{
+ 
+ padding: 10px;
+ text-align: center;
+ color: aliceblue;
+ font-size: 30px;
+
+ 
+}
+
+#play{
+    background-color: green;
+    
+  
+
+}
+
+#pause{
+    background-color: orangered;
+    width: 50px;
+   
+    
+}
+
+#reset{
+    background-color: red;
+}
