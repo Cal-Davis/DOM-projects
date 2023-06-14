@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    display:flex;
+    background: url(img/This\ Ivy\ House.jpeg) no-repeat center center/cover;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.container{
+    
+   
+    background-color: aliceblue;
+    width: 60%;
+    padding: 20px;
+    border-radius: 20px;
+
+    
+
+}
+
+.container .heading{
+  
+    text-align: center;
+    font-size: 2rem;
+}
+
+.container .question{
+    padding:15px;
+    font-size: 1.5rem;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+    position: relative;
+}
+
+.container .answer{
+    padding: 5px;
+    font-size: 18px;
+    line-height: 2;
+    width: 100%;
+    height: 0px;
+    overflow: hidden;
+    transition: .5s;
+}
+.container .question::after{
+    content: "+";
+    position: absolute;
+    right: 20px;    
+    
+}
+
+/* JavaScript stylin Link */
+.container .container-content.active .answer{
+    height: 150px;
+}
+.container .container-content.active .question{
+    font-size: 18px;
+    transition: .5s;
+
+}
+.container .container-content.active .question::after{
+    content: "-";
+    font-size: 30px;
+    transition: .5s;
+}
